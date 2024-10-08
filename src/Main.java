@@ -59,6 +59,5 @@ public class Main {
         employeeCount += 94;
         var newTimePerDay = workTime * 14. / employeeCount;
         System.out.println("New time per day;" + newTimePerDay);
-
     }
 }
