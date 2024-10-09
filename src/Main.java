@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        var dog = 8.0 ;
+        var dog = 8.0;
         System.out.println(dog);
         var cat = 3.6;
         System.out.println(cat);
@@ -24,7 +24,7 @@ public class Main {
 
         var friend = 19;
         System.out.println("Значение переменной friend :" + friend);
-        friend = friend +2;
+        friend = friend + 2;
         System.out.println("Значение переменной friend :" + friend);
         friend = friend / 7;
         System.out.println("Значение переменной friend :" + friend);
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Значение переменной frog:" + frog);
         frog = frog / 3.5;
         System.out.println("Значение переменной frog:" + frog);
-        frog = frog / 4;
+        frog = frog + 4;
         System.out.println("Значение переменной frog:" + frog);
 
         var boxer1Weight = 78.2;
@@ -48,16 +48,21 @@ public class Main {
         var weightDifference = boxer2Weight - boxer1Weight;
         System.out.println("Weight difference : " + weightDifference);
 
+        var remainder = boxer2Weight % boxer1Weight;
+        System.out.println(remainder);
+
         var workTime = 640;
         System.out.println(workTime);
         var timePerDay = 8;
         System.out.println(timePerDay);
 
         var employeeCount = workTime / timePerDay;
-        System.out.println("Count all employees: " + employeeCount);
+        System.out.println(employeeCount);
+        System.out.println("Всего работников в компании - " + employeeCount + " человек");
 
         employeeCount += 94;
-        var newTimePerDay = workTime * 14. / employeeCount;
-        System.out.println("New time per day;" + newTimePerDay);
+        System.out.println(employeeCount);
+        var newWorkTime = workTime / employeeCount;
+        System.out.println("Если в компании работает " + employeeCount + " человек " + " то всего " + newWorkTime + " часов работы может быть поделено между сотрудниками");
     }
 }
