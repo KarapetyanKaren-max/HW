@@ -64,6 +64,5 @@ public class Main {
         System.out.println(employeeCount);
         var newWorkTime = workTime / employeeCount;
         System.out.println("Если в компании работает " + employeeCount + " человек " + " то всего " + newWorkTime + " часов работы может быть поделено между сотрудниками");
-
     }
 }
