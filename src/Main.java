@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        int appel = 121;
-        System.out.println("Значение переменной appel с типом int = 121");
+        int egg = 121;
+        System.out.println("Значение переменной egg с типом int = 121");
         byte box = 20;
         System.out.println("Значение переменной box с типом byte = 20");
         short banana = 40;
@@ -61,26 +61,26 @@ public class Main {
         System.out.println("за 3 дня машина произвела " + bottlesIn3Days + " штук бутылок");
         System.out.println("за месяц машина произвела " + bottlesInMonth + " штук бутылок");
 
-        int totalCans = 120;
+        byte totalCans = 120;
         System.out.println(totalCans);
-        int whiteCansPerClass = 2;
+        byte whiteCansPerClass = 2;
         System.out.println(whiteCansPerClass);
-        int brownCansPerClass = 4;
+        byte brownCansPerClass = 4;
         System.out.println(brownCansPerClass);
 
-        int totalClasses = totalCans / (whiteCansPerClass + brownCansPerClass);
-        System.out.println(totalClasses);
-        int totalWhiteCans = totalClasses * whiteCansPerClass;
+        int totalСlasses = totalCans / (whiteCansPerClass + brownCansPerClass);
+        System.out.println(totalСlasses);
+        int totalWhiteCans = totalСlasses * whiteCansPerClass;
         System.out.println(totalWhiteCans);
-        int totalBrownCans = totalClasses * brownCansPerClass;
+        int totalBrownCans = totalСlasses * brownCansPerClass;
         System.out.println(totalBrownCans);
 
-        System.out.println("В школе. где " + totalClasses + " классов. нужно " + totalWhiteCans + " банок белой краскт " + totalBrownCans + " банок коричневой краски");
+        System.out.println("В школе. где " + totalСlasses + " классов" + ". нужно " + totalWhiteCans + " банок белой краскт " + totalBrownCans + " и" + " банок коричневой краски");
 
-        int bananasCount = 5;
-        System.out.println(bananasCount);
-        int bananasaWeight = 80;
-        System.out.println(bananasaWeight);
+        int bananaCount = 5;
+        System.out.println(bananaCount);
+        int bananaWeight = 80;
+        System.out.println(bananaWeight);
         int milkVolume = 200;
         System.out.println(milkVolume);
         int milkWeightGr = 105;
@@ -92,9 +92,9 @@ public class Main {
         int eggsWeight = 70;
         System.out.println(eggsWeight);
 
-        int totalWeightGr = bananasCount * bananasaWeight + milkVolume * milkWeightGr / 100 + iceCreamWeight + eggsCount * eggsWeight;
+        int totalWeightGr = bananaCount * bananaWeight + milkVolume * milkWeightGr / 100 + iceCreamWeight + eggsCount * eggsWeight;
         System.out.println(totalWeightGr);
-        double totalWeightInnKg = (double)totalWeightGr / 1000.0;
+        double totalWeightInnKg = (double) totalWeightGr / 1000.0;
         System.out.println(totalWeightInnKg);
 
         int weightLossGoalKg = 7;
@@ -104,9 +104,9 @@ public class Main {
         double dalyWeightLossHighKg = 0.5;
         System.out.println(dalyWeightLossHighKg);
 
-        int daysLow = (int)((double)weightLossGoalKg / dailyWeightLossLowKg);
+        int daysLow = (int) ((double) weightLossGoalKg / dailyWeightLossLowKg);
         System.out.println(daysLow);
-        int daysHigh = (int)((double)weightLossGoalKg / dalyWeightLossHighKg);
+        int daysHigh = (int) ((double) weightLossGoalKg / dalyWeightLossHighKg);
         System.out.println(daysHigh);
 
         int daysAverage = (daysLow + daysHigh) / 2;
@@ -119,11 +119,11 @@ public class Main {
         int kristinaSalary = 76230;
         System.out.println(kristinaSalary);
 
-        int mashaNewSalary = (int)((double)mashaSalary * 1.1);
+        int mashaNewSalary = (int) ((double) mashaSalary * 1.1);
         System.out.println(mashaNewSalary);
-        int denisNewSalary = (int)((double)denisSalary * 1.1);
+        int denisNewSalary = (int) ((double) denisSalary * 1.1);
         System.out.println(denisNewSalary);
-        int kristinaNewSalary = (int)((double)kristinaSalary * 1.1);
+        int kristinaNewSalary = (int) ((double) kristinaSalary * 1.1);
 
         System.out.println(kristinaNewSalary);
         int mashaSalaryBeforeIndexation = mashaSalary * 12;
