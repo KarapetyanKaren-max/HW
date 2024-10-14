@@ -75,7 +75,7 @@ public class Main {
         int totalBrownCans = totalСlasses * brownCansPerClass;
         System.out.println(totalBrownCans);
 
-        System.out.println("В школе. где " + totalСlasses + " классов" + ". нужно " + totalWhiteCans + " банок белой краскт " + totalBrownCans + " и" + " банок коричневой краски");
+        System.out.println("В школе, где " + totalСlasses + " классов" + ", нужно " + totalWhiteCans + " банок белой краскт " + totalBrownCans + " и" + " банок коричневой краски");
 
         int bananaCount = 5;
         System.out.println(bananaCount);
