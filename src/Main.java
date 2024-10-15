@@ -112,40 +112,25 @@ public class Main {
         int daysAverage = (daysLow + daysHigh) / 2;
         System.out.println(daysAverage);
 
-        int mashaSalary = 67760;
-        System.out.println(mashaSalary);
-        int denisSalary = 83690;
-        System.out.println(denisSalary);
-        int kristinaSalary = 76230;
-        System.out.println(kristinaSalary);
+        double mashaSalary = 67760;
+        double denisSalary = 83690;
+        double kristinaSalary = 76230;
 
-        int mashaNewSalary = (int) ((double) mashaSalary * 1.1);
-        System.out.println(mashaNewSalary);
-        int denisNewSalary = (int) ((double) denisSalary * 1.1);
-        System.out.println(denisNewSalary);
-        int kristinaNewSalary = (int) ((double) kristinaSalary * 1.1);
+        double mashaNewSalary = (int) ((double) mashaSalary * 1.1);
+        double denisNewSalary = (int) ((double) denisSalary * 1.1);
+        double kristinaNewSalary = (int) ((double) kristinaSalary * 1.1);
 
-        System.out.println(kristinaNewSalary);
-        int mashaSalaryBeforeIndexation = mashaSalary * 12;
-        System.out.println(mashaSalaryBeforeIndexation);
-        int denisSalaryBeforeIndexation = denisSalary * 12;
-        System.out.println(denisSalaryBeforeIndexation);
-        int kristinaSalaryBeforeIndexation = kristinaSalary * 12;
-        System.out.println(kristinaSalaryBeforeIndexation);
+        double mashaSalaryBeforeIndexation = mashaSalary * 12;
+        double denisSalaryBeforeIndexation = denisSalary * 12;
+        double kristinaSalaryBeforeIndexation = kristinaSalary * 12;
 
-        int mashaSalaryAfterIndexation = mashaNewSalary * 12;
-        System.out.println(mashaSalaryAfterIndexation);
-        int denisSalaryAfterIndexation = denisNewSalary * 12;
-        System.out.println(denisSalaryAfterIndexation);
-        int kristinaAfterBeforeIndexation = kristinaNewSalary * 12;
-        System.out.println(kristinaAfterBeforeIndexation);
+        double mashaSalaryAfterIndexation = mashaNewSalary * 12;
+        double denisSalaryAfterIndexation = denisNewSalary * 12;
+        double kristinaAfterBeforeIndexation = kristinaNewSalary * 12;
 
-        int mashaDifferenceBetweenAnnualIncome = mashaSalaryAfterIndexation - mashaSalaryBeforeIndexation;
-        System.out.println(mashaDifferenceBetweenAnnualIncome);
-        int denisDifferenceBetweenAnnualIncome = denisSalaryAfterIndexation - denisSalaryBeforeIndexation;
-        System.out.println(denisDifferenceBetweenAnnualIncome);
-        int kristinaDifferenceBetweenAnnualIncome = kristinaAfterBeforeIndexation - kristinaSalaryBeforeIndexation;
-        System.out.println(kristinaDifferenceBetweenAnnualIncome);
+        double mashaDifferenceBetweenAnnualIncome = mashaSalaryAfterIndexation - mashaSalaryBeforeIndexation;
+        double denisDifferenceBetweenAnnualIncome = denisSalaryAfterIndexation - denisSalaryBeforeIndexation;
+        double kristinaDifferenceBetweenAnnualIncome = kristinaAfterBeforeIndexation - kristinaSalaryBeforeIndexation;
 
         System.out.println(" Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос " + mashaDifferenceBetweenAnnualIncome + " рублей ");
         System.out.println(" Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос " + denisDifferenceBetweenAnnualIncome + " рублей ");
