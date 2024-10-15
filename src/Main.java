@@ -116,9 +116,9 @@ public class Main {
         double denisSalary = 83690;
         double kristinaSalary = 76230;
 
-        double mashaNewSalary = (int) ((double) mashaSalary * 1.1);
-        double denisNewSalary = (int) ((double) denisSalary * 1.1);
-        double kristinaNewSalary = (int) ((double) kristinaSalary * 1.1);
+        double mashaNewSalary = (double) ((double) mashaSalary * 1.1);
+        double denisNewSalary = (double) ((double) denisSalary * 1.1);
+        double kristinaNewSalary = (double) ((double) kristinaSalary * 1.1);
 
         double mashaSalaryBeforeIndexation = mashaSalary * 12;
         double denisSalaryBeforeIndexation = denisSalary * 12;
